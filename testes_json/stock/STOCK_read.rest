@@ -1,0 +1,16 @@
+//BUSCAR INGREDIENTE POR NOME
+GET http://localhost:3000/api_confeitaria/super/estoque?nome=nome_ingrediente
+Authorization: Bearer token
+###
+
+//BUSCAR TODOS OS INGREDIENTES
+GET http://localhost:3000/api_confeitaria/super/estoque
+Authorization: Bearer token
+
+##
+
+//BUSCAR UM INGREDIENTE PELO ID 
+GET http://localhost:3000/api_confeitaria/super/estoque/ingrediente/:id
+Authorization: Bearer token
+
+###

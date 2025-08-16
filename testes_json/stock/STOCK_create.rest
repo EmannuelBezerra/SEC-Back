@@ -1,0 +1,15 @@
+//ADICIONAR OS PRODUTOS NO ESTOQUE
+POST http://localhost:3000/api_confeitaria/super/estoque
+Authorization: Bearer token
+Content-Type: application/json
+
+{
+    "nome": "Leite condensado",
+    "unidades": 12,
+    "pesoPorUnidade": 0.395,
+    "unidadeMedida": "kg",
+    "validade": "30/09/2025",
+    "nivelMinimo": 5,
+    "precoCusto": 4.50,
+    "categoria": "Laticínios"
+}

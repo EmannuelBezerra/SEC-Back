@@ -1,0 +1,9 @@
+//EDITAR DADOS DO INGREDIENTE
+PUT http://localhost:3000/api_confeitaria/super/estoque/ingrediente/:id
+Authorization: Bearer token
+Content-Type: application/json
+
+{
+    "validade": "15/12/2025",
+    "precoCusto": 11.90
+}

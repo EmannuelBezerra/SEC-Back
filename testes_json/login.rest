@@ -1,0 +1,10 @@
+//LOGIN - SUPERVISOR-SENIOR
+POST http://localhost:3000/api_confeitaria/autenticacao/login
+Content-Type: application/json
+
+{
+    "email": "ssteste@gmail.com",
+    "senha": "SS_teste789@"
+}
+
+###
